@@ -73,6 +73,7 @@ Portfolio/
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 - Basic text editor (VS Code recommended)
 - Local web server (optional, for development)
+- Git (for GitHub deployment)
 
 ### Installation & Setup
 
@@ -83,6 +84,48 @@ Portfolio/
 3. **View the portfolio** by either:
    - Opening `index.html` directly in your web browser
    - Running a local server (recommended for development)
+
+### 🌐 GitHub Pages Deployment
+
+To deploy your portfolio on GitHub Pages:
+
+1. **Create a GitHub Repository**:
+   ```bash
+   # Create a new repository on GitHub
+   # Name it: your-username.github.io (for user site) or any name (for project site)
+   ```
+
+2. **Push Your Code**:
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial portfolio commit"
+   git branch -M main
+   git remote add origin https://github.com/your-username/your-repo-name.git
+   git push -u origin main
+   ```
+
+3. **Enable GitHub Pages**:
+   - Go to your repository on GitHub
+   - Click on "Settings" tab
+   - Scroll down to "Pages" section
+   - Under "Source", select "Deploy from a branch"
+   - Choose "main" branch and "/ (root)" folder
+   - Click "Save"
+
+4. **Access Your Live Site**:
+   - Your portfolio will be available at: `https://your-username.github.io/your-repo-name/`
+   - It may take a few minutes to deploy
+
+### ⚠️ GitHub Pages Troubleshooting
+
+If your portfolio isn't working on GitHub Pages:
+
+1. **Check file paths**: Ensure all paths are relative (no leading slashes)
+2. **Case sensitivity**: GitHub Pages is case-sensitive, check file names
+3. **Images**: Make sure all image files are committed and pushed
+4. **Wait**: GitHub Pages can take 5-10 minutes to update
+5. **Check browser console**: Look for any error messages
 
 ### Running a Local Server
 
