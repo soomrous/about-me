@@ -1,0 +1,25 @@
+Resume File Instructions:
+==========================
+
+✅ SETUP COMPLETE! 
+Your "Resume.docx" file is properly configured.
+
+Current Setup:
+- Resume file: "Resume.docx" ✅ (Found in directory)
+- Download name: "Sikander_Soomro_Resume.docx"
+- Button functionality: Fully working
+
+To change the resume file:
+1. Replace "Resume.docx" with your new file
+2. Update the "resumeUrl" variable in script.js if needed
+3. Change the download filename as desired
+
+File Structure:
+├── index.html
+├── style.css
+├── script.js
+├── New Profile Pic.jpg
+├── Resume.docx  ✅ (Your resume file)
+└── ...
+
+The "Download Resume" button will now download your Resume.docx file as "Sikander_Soomro_Resume.docx"

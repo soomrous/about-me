@@ -1,0 +1,19 @@
+<!-- This is a placeholder file. Replace 'profile-pic.jpg' in the HTML with your actual profile picture -->
+<!-- 
+To use your own profile picture:
+1. Save your profile picture as 'profile-pic.jpg' in the same folder as index.html
+2. Make sure the image is square (400x400 pixels recommended) for best results
+3. The image will automatically have the floating animation applied
+
+Alternatively, you can:
+- Name your image file differently and update the src attribute in index.html
+- Use different image formats (PNG, JPEG, etc.)
+- Resize the image using the CSS in style.css
+-->
+
+Profile Picture Instructions:
+=============================
+1. Add your profile picture to this folder
+2. Name it 'profile-pic.jpg' or update the HTML file
+3. The image will automatically have a floating animation (slow up and down movement)
+4. The image is styled with a circular border and blue glow effect
